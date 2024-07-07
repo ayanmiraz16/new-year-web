@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+body{
+    font-family: Merriweather;
+}
+*{
+    box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+}
+
+/* banner section style starts here */
+
+.banner-container{
+    max-width: 1320px;
+    min-height: 600px;
+    border-radius: 16px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url(./images/Banner\ Image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+.banner-content p{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 400;
+}
+.banner-content h1{
+    color: rgb(255, 255, 255);
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    width: 632px;
+}
+
+
+/* 65% section style starts here */
+
+.second-section-container{
+    width: 802.9px;
+    height: 806px;
+    margin: 0 auto;
+    margin-top: 90px;
+    margin-bottom: 120px;
+}
+
+.second-section-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.second-section-content h1{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+.second-section-content p{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.second-section-content h3{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 47px;
+}
+
+.image-container{
+    width: 802.9px;
+    height: 500px;
+}
+
+.image-container img{
+    width: 100%;
+    height: 100%;
+}
+
+/* midnight party style section starts here  */
+
+.midnight-party-container{
+    width: 1320px;
+    height: 600px;
+    border: 2px solid red;
+    margin-top: 120px;
+    margin: 0 auto;
+    display: flex;
+    background-image: url(./images/Vectorrr.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+
+}
+.left-side-content{
+    width: 50%;
+    width: 642px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px;
+
+}
+
+.left-side-content h1{
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+}
+.left-side-content p{
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+
+
+#midnight-btn{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+.right-side-content{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.right-side-content img{
+    width: 349.16px;
+    height: 464.65px;
+}
+
+/* schedule-container styles starts here */
+
+
+.schedule-container{
+    width: 1320px;
+    height: 482px;
+    border: 2px solid red;
+    margin: 0 auto;
+    margin-top: 120px;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.schedule-container p{
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+.schedule-container-identity{
+    color: rgb(255, 0, 0);
+}
+
+
+.schedule-container-identity-button{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    background: rgb(255, 0, 0);
+    width: 167px;
+    height: 56px;
+    padding: 10px 32px 16px 32px;
+    margin-top: 48px;
+}
