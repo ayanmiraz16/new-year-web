@@ -350,7 +350,7 @@ body{
     bottom: 0%;
 }
 
-.gift-box{
+.gift-box {
     width: 674.82px;
     height: 577.96px;
     position: relative;
@@ -359,6 +359,15 @@ body{
     display: flex;
     justify-content: space-between;
 
+}
+.gift-box img{
+    width: 674.82px;
+    height: 577.96px;
+    position: relative;
+    z-index: 1;
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-between;
 }
 .fifty-percent{
     width: 206.84px;
@@ -490,4 +499,102 @@ body{
     font-family: Inter;
     font-size: 20px;
     font-weight: 600;
+    cursor: pointer;
+}
+
+
+
+/* footer section style starts here  */
+
+
+.footer-container{
+    width: 1320px;
+    height: 609px;
+    border: 2px solid rgb(0, 0, 0);
+    margin: 0 auto;
+    margin-bottom: 150px;
+    background: rgb(7, 2, 17);
+
+}
+
+
+.footer-first-section{
+    color: rgb(255, 255, 255);
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.footer-first-section-location{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
+.contact img{
+    width: 24px;
+    height: 24px;
+    border: 1.5px dashed rgb(255, 255, 255);
+}
+.contact{
+    display: flex;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    gap: 20px;
+}
+
+
+.hr{
+    width: 90%;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    margin: 0 auto;
+    margin-top: 49px;
+    margin-bottom: 49.5px;
+}
+
+
+.social-media-icons{
+    width: 328px;
+    height: 64px;
+    margin: 0 auto;
+    margin-top: 48.5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.social-media-icon{
+    border: 1px dashed rgb(82, 79, 79);
+}
+
+.footer-second-section{
+    color: rgb(255, 255, 255);
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+
+.footer-second-section-copyright{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.footer-second-section-unsubscribe{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
 }
