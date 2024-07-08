@@ -108,6 +108,7 @@ body{
     background-repeat: no-repeat;
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: overlay;
+    border-radius: 10px;
 
 }
 .left-side-content{
@@ -295,4 +296,72 @@ body{
     width: 140px;
     height: 132.79px;
     
+}
+
+
+/* holiday section style starts here  */
+
+.holiday-section-container{
+    width: 1320px;
+    height: 986.07px;
+    border: 2px solid red;
+    margin: 0 auto;
+    position: relative;
+}
+
+.holiday-text-container{
+    width: 1068px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 126px;
+}
+
+
+.holiday-text-container h5{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.holiday-text-container h1{
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 16px;
+    margin-bottom: 28px;
+}
+
+.holiday-text-container p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.solid-color{
+    width: 1320px;
+    height: 229px;
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    bottom: 0%;
+}
+
+.gift-box{
+    width: 674.82px;
+    height: 577.96px;
+    position: relative;
+    z-index: 1;
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.fifty-percent{
+    width: 206.84px;
+    height: 206.84px;
+
 }
